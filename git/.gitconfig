@@ -1,0 +1,12 @@
+[user]
+  name = Carlos Moreira
+  email = 75152235+devmoreir4@users.noreply.github.com
+[color]
+  branch = auto
+  diff = auto
+  status = auto
+[init]
+  defaultBranch = main
+[core]
+  autocrlf = input
+  excludesFile = ~/.gitignore.global
