@@ -1,0 +1,33 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Log and temporary files
+*.log
+*.tmp
+
+# Build and cache directories
+node_modules/
+target/
+bin/
+obj/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Java files
+*.class
+*.jar
+*.war
+
+# Personal Git configuration
+.gitconfig

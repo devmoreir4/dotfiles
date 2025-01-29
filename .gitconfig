@@ -1,0 +1,23 @@
+[user]
+  name = Carlos Moreira
+  email = 75152235+devmoreir4@users.noreply.github.com
+[color]
+  ui = auto
+[init]
+  defaultBranch = main
+[core]
+  editor = vim
+  excludesFile = ~/.gitignore_global
+  autocrlf = input
+[alias]
+    co = checkout
+    br = branch
+    cm = commit -m
+    st = status
+    lg = log --oneline --graph --decorate --all
+    last = log -1 HEAD
+    amend = commit --amend --no-edit
+    unstage = reset HEAD --
+    uncommit = reset --soft HEAD^
+    # cleanup = "!git reset --hard && git clean -fd"
+    cleanup = "!echo 'This will delete ALL local changes!'; read -p 'Are you sure? (y/n): ' confirm; if [ \"$confirm\" = \"y\" ]; then git reset --hard && git clean -fd; else echo 'Operation cancelled.'; fi"
