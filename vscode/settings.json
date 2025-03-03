@@ -1,72 +1,106 @@
 {
-    // ================================
-    // DEBUG
-    // ================================
-    "debug.allowBreakpointsEverywhere": true,
-    "editor.glyphMargin": true,
+  // =====================================================
+  // DEBUG
+  // =====================================================
+  "debug.allowBreakpointsEverywhere": true,
+  "editor.glyphMargin": true,
 
-    // ================================
-    // WORKSPACE / EDITOR
-    // ================================
-    "files.autoSave": "afterDelay",
-    "editor.lineNumbers": "on",
-    "editor.minimap.enabled": false,
-    "window.commandCenter": false,
-    "editor.lineHeight": 0,
-    "editor.rulers": [80, 120],
-    "editor.renderLineHighlight": "all",
-    "editor.fontSize": 14,
-    "editor.tabSize": 4,
-    "editor.semanticHighlighting.enabled": false,
-    "update.showReleaseNotes": false,
-    "editor.hover.sticky": true,
-    "editor.accessibilitySupport": "off",
-    "editor.wordWrap": "on",
-    "update.mode": "start",
-    "editor.scrollbar.vertical": "visible",
-    "editor.scrollbar.horizontal": "visible",
-    "editor.scrollbar.verticalScrollbarSize": 10,
-    "files.insertFinalNewline": true,
-    "editor.cursorSurroundingLines": 8,
-    "explorer.compactFolders": true,
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "files.associations": {
-        ".env.*": "dotenv",
-        ".prettierrc": "json",
-        "*.css": "css"
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[css]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.fontFamily": "JetBrains Mono",
-    "editor.fontLigatures": true,
-    "workbench.editor.labelFormat": "short",
-    "workbench.editor.tabSizing": "shrink",
-    "workbench.colorTheme": "Dracula Theme",
-    "workbench.iconTheme": "vscode-icons",
+  // =====================================================
+  // WORKSPACE / EDITOR
+  // =====================================================
+  "files.autoSave": "afterDelay",
+  "editor.lineNumbers": "on",
+  "editor.lineHeight": 0,
+  "editor.rulers": [80, 120],
+  "editor.renderLineHighlight": "all",
+  "editor.fontSize": 14,
+  "editor.tabSize": 4,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.hover.sticky": true,
+  "editor.accessibilitySupport": "off",
+  "editor.wordWrap": "on",
+  "editor.scrollbar.vertical": "visible",
+  "editor.scrollbar.horizontal": "visible",
+  "editor.scrollbar.verticalScrollbarSize": 10,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.cursorSurroundingLines": 8,
+  "explorer.compactFolders": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
 
-    // =====================================================
-    // TERMINAL
-    // =====================================================
-    "terminal.integrated.enableMultiLinePasteWarning": "never",
-    "terminal.integrated.defaultProfile.linux": "bash",
-    "terminal.integrated.defaultProfile.osx": "zsh",
-    "terminal.integrated.enableVisualBell": true,
-    "terminal.integrated.fontSize": 13,
-    "terminal.integrated.defaultProfile.windows": "PowerShell",
-    // "terminal.integrated.fontFamily": "JetBrains Mono",
+  // visual improvements
+  "workbench.colorTheme": "Dracula Theme",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.editor.labelFormat": "short",
+  "workbench.statusBar.visible": true,
+  "window.commandCenter": false,
+  "editor.minimap.enabled": false,
+  "workbench.editor.tabActionCloseVisibility": true,
 
-    // =====================================================
-    // PYTHON
-    // =====================================================
-    "python.languageServer": "Pylance",
-    "python.createEnvironment.trigger": "off",
-    "python.terminal.activateEnvironment": false
+  // files associations
+  "files.associations": {
+    ".env.*": "dotenv",
+    ".prettierrc": "json",
+    "*.css": "css"
+  },
+
+  // =====================================================
+  // FORMATTERS
+  // =====================================================
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+
+  // =====================================================
+  // TERMINAL
+  // =====================================================
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.enableVisualBell": true,
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+
+  // =====================================================
+  // PYTHON
+  // =====================================================
+  "python.languageServer": "Pylance",
+  "python.createEnvironment.trigger": "off",
+  "python.terminal.activateEnvironment": false,
+
+  // ================================
+  // MISC
+  // ================================
+  "update.showReleaseNotes": false,
+  "update.mode": "start"
 }
