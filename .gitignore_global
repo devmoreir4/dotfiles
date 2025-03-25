@@ -1,10 +1,14 @@
 # System files
 .DS_Store
 Thumbs.db
+Desktop.ini
 
 # Log and temporary files
 *.log
 *.tmp
+*.swp
+*.swo
+*.bak
 
 # Build and cache directories
 node_modules/
@@ -15,8 +19,8 @@ obj/
 # IDE and editor files
 .vscode/
 .idea/
-*.swp
-*.swo
+*.sublime-project
+*.sublime-workspace
 
 # Python files
 __pycache__/
@@ -31,3 +35,11 @@ __pycache__/
 
 # Personal Git configuration
 .gitconfig
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
