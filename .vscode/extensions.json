@@ -1,7 +1,6 @@
 {
   "recommendations": [
     "anseki.vscode-color",
-    "bmewburn.vscode-intelephense-client",
     "dbaeumer.vscode-eslint",
     "dracula-theme.theme-dracula",
     "eamodio.gitlens",
@@ -13,6 +12,7 @@
     "gruntfuggly.todo-tree",
     "leonardssh.vscord",
     "mechatroner.rainbow-csv",
+    "mikestead.dotenv",
     "mhutchie.git-graph",
     "ms-azuretools.vscode-docker",
     "ms-python.autopep8",
@@ -32,9 +32,8 @@
     "njpwerner.autodocstring",
     "pkief.material-icon-theme",
     "qwtel.sqlite-viewer",
-    "ritwickdey.liveserver",
+    // "ritwickdey.liveserver",
     "shd101wyy.markdown-preview-enhanced",
-    "tomoki1207.pdf",
     "vscodevim.vim"
   ]
 }

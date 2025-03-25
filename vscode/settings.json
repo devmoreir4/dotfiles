@@ -98,9 +98,9 @@
   "python.createEnvironment.trigger": "off",
   "python.terminal.activateEnvironment": false,
 
-  // ================================
+  // =====================================================
   // MISC
-  // ================================
+  // =====================================================
   "update.showReleaseNotes": false,
   "update.mode": "start"
 }
