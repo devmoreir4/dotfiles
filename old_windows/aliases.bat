@@ -1,14 +1,14 @@
 @echo off
 
 :: run this command to add the aliases to the registry
-:: reg add "HKEY_CURRENT_USER\Software\Microsoft\Command Processor" /v AutoRun /t REG_SZ /d "C:\Users\Carlos\aliases.bat" /f
+:: reg add "HKEY_CURRENT_USER\Software\Microsoft\Command Processor" /v AutoRun /t REG_SZ /d "C:\Users\carlos\aliases.bat" /f
 
 :: shortcuts
-DOSKEY desk=cd "C:\Users\Carlos\Desktop"
-DOSKEY pydir=cd "C:\Users\Carlos\Documents\Programming\Python"
-DOSKEY javadir=cd "C:\Users\Carlos\Documents\Programming\Java"
-DOSKEY gitdir=cd "C:\Users\Carlos\Documents\GitHub"
-DOSKEY downdir=cd "C:\Users\Carlos\Downloads"
+DOSKEY desk=cd "C:\Users\carlos\Desktop"
+DOSKEY pydir=cd "C:\Users\carlos\Documents\projects\Python"
+DOSKEY javadir=cd "C:\Users\carlos\Documents\projects\Java"
+DOSKEY gitdir=cd "C:\Users\carlos\Documents\GitHub"
+DOSKEY downdir=cd "C:\Users\carlos\Downloads"
 
 DOSKEY ls=dir /D $*
 DOSKEY l=dir /B $*
