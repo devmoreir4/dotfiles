@@ -11,7 +11,7 @@
   "files.autoSave": "afterDelay",
   "editor.lineNumbers": "on",
   "editor.lineHeight": 0,
-  "editor.rulers": [80, 120],
+  "editor.rulers": [90, 120],
   "editor.renderLineHighlight": "all",
   "editor.fontSize": 14,
   "editor.tabSize": 4,
@@ -34,6 +34,7 @@
   "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
   "editor.fontLigatures": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "cSpell.language": "en,pt,pt_BR",
 
   // visual improvements
   "workbench.colorTheme": "Dracula Theme",
@@ -79,12 +80,15 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.autopep8"
   },
+  "[dart]": {
+    "editor.defaultFormatter": "Dart-Code.dart-code"
+  },
 
   // =====================================================
   // TERMINAL
   // =====================================================
   "terminal.integrated.enableMultiLinePasteWarning": "never",
-  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.enableVisualBell": true,
   "terminal.integrated.fontSize": 13,
@@ -97,6 +101,13 @@
   "python.languageServer": "Pylance",
   "python.createEnvironment.trigger": "off",
   "python.terminal.activateEnvironment": false,
+
+  // =====================================================
+  // DART
+  // =====================================================
+  "dart.analysisServerFolding": true,
+  "dart.enableSdkFormatter": true,
+  "dart.completeFunctionCalls": true,
 
   // =====================================================
   // MISC
