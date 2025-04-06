@@ -6,7 +6,7 @@
   "editor.glyphMargin": true,
 
   // =====================================================
-  // WORKSPACE / EDITOR
+  // WORKSPACE
   // =====================================================
   "files.autoSave": "afterDelay",
   "editor.lineNumbers": "on",
@@ -29,12 +29,25 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
-  "editor.formatOnType": true,
   "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
   "editor.fontLigatures": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "cSpell.language": "en,pt,pt_BR",
+
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "[dart]": {
+    "editor.defaultFormatter": "Dart-Code.dart-code"
+  },
+
+  "files.associations": {
+    "*.env.*": "dotenv",
+    ".eslintrc": "json",
+    ".prettierrc": "json",
+    "*.css": "css",
+    "Dockerfile*": "dockerfile"
+  },
 
   // visual improvements
   "workbench.colorTheme": "Dracula Theme",
@@ -46,43 +59,10 @@
   "editor.minimap.enabled": false,
   "workbench.editor.tabActionCloseVisibility": true,
 
-  // files associations
-  "files.associations": {
-    ".env.*": "dotenv",
-    ".prettierrc": "json",
-    "*.css": "css"
-  },
-
-  // =====================================================
-  // FORMATTERS
-  // =====================================================
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.autopep8"
-  },
-  "[dart]": {
-    "editor.defaultFormatter": "Dart-Code.dart-code"
-  },
+  // miscellaneous
+  "update.showReleaseNotes": false,
+  "update.mode": "start",
+  "workbench.startupEditor": "none",
 
   // =====================================================
   // TERMINAL
@@ -107,11 +87,5 @@
   // =====================================================
   "dart.analysisServerFolding": true,
   "dart.enableSdkFormatter": true,
-  "dart.completeFunctionCalls": true,
-
-  // =====================================================
-  // MISC
-  // =====================================================
-  "update.showReleaseNotes": false,
-  "update.mode": "start"
+  "dart.completeFunctionCalls": true
 }

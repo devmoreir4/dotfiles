@@ -1,6 +1,7 @@
 {
   "recommendations": [
     "anseki.vscode-color",
+    "bradlc.vscode-tailwindcss",
     "christian-kohler.path-intellisense",
     "dbaeumer.vscode-eslint",
     "dracula-theme.theme-dracula",
@@ -31,7 +32,6 @@
     "ms-vscode-remote.remote-wsl",
     "ms-vscode.powershell",
     "ms-vscode.remote-explorer",
-    // "ms-vsliveshare.vsliveshare",
     "njpwerner.autodocstring",
     "pkief.material-icon-theme",
     "qwtel.sqlite-viewer",
