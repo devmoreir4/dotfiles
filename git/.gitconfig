@@ -21,7 +21,6 @@
   pl = pull
   ps = push
   plr = pull --rebase
-  pshf = push --force-with-lease
   lg = log --oneline --graph --decorate --all
   hist = log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short
   last = log -1 HEAD

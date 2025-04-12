@@ -5,8 +5,9 @@
 
 :: shortcuts
 DOSKEY desk=cd "C:\Users\carlos\Desktop"
-DOSKEY pydir=cd "C:\Users\carlos\Documents\projects\Python"
-DOSKEY javadir=cd "C:\Users\carlos\Documents\projects\Java"
+DOSKEY pydir=cd "C:\Users\carlos\Documents\projects\python"
+DOSKEY javadir=cd "C:\Users\carlos\Documents\projects\java"
+DOSKEY backdir=cd "C:\Users\carlos\Documents\projects\backend"
 DOSKEY gitdir=cd "C:\Users\carlos\Documents\GitHub"
 DOSKEY downdir=cd "C:\Users\carlos\Downloads"
 
