@@ -37,4 +37,6 @@ __pycache__/
 .gitconfig
 
 # Environment files
+venv
+.venv
 .env
